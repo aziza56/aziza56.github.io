@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="bg-success text-white text-center p-5">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Discover my projects and skills</p>
+        <a href="#projects" class="btn btn-light btn-lg">View My Work</a>
+    </header>
+
+    <!-- About Me Section -->
+    <section class="container mt-5" id="about">
+        <h2>About Me</h2>
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <img src="profile.jpeg" alt="Profile Picture" class="img-fluid rounded-circle profile-img">
+            </div>
+            <div class="col-md-8">
+                <p>Halo! Nama saya Aziza Maemunasua Abron, seorang mahasiswa yang aktif dalam pelestarian budaya dan seni di Sumatera Utara. Saya memiliki minat mendalam dalam mempromosikan kekayaan budaya daerah melalui berbagai platform digital.
+                </p>
+                <p>Portofolio ini dirancang untuk memberikan gambaran tentang diri saya, hobi, keterampilan, dan aspirasi saya. Di dalamnya, Anda akan menemukan:</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="container mt-5" id="projects">
+        <h2>My Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="Hobi.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Hobby</h5>
+                        <p class="card-text">Selain aktif di dunia akademik, saya memiliki hobi boxing, sebuah olahraga yang mengajarkan disiplin, fokus, dan kekuatan mental.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="skill.jpeg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Skills</h5>
+                        <p class="card-text">Salah satu keterampilan yang sangat saya banggakan adalah public speaking. Saya percaya bahwa kemampuan berbicara di depan umum adalah kunci untuk menyampaikan ide, membangun koneksi, dan menginspirasi orang lain.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="Experience.jpeg" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Experience</h5>
+                        <p class="card-text">Salah satu pengalaman paling signifikan dalam hidup saya adalah menjadi bagian dari tim kampanye calon presiden serta pemimpin daerah di kota saya. Peran ini bukan hanya memberikan saya wawasan mendalam tentang politik dan kebijakan publik, tetapi juga mengajarkan nilai-nilai penting seperti kerja sama tim, kepemimpinan, dan bagaimana membangun hubungan yang baik dengan masyarakat.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="container mt-5" id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="text-center p-3 bg-dark text-white mt-5">
+        &copy; 2024 My Portfolio
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="/cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="/stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

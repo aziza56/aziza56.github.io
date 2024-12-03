@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url('header-bg.jpg'); /* Ganti dengan gambar latar belakang Anda */
+    background-size: cover;
+}
+
+.profile-img {
+    width: 150px; /* Sesuaikan ukuran foto profil */
+    height: 150px; /* Sesuaikan ukuran foto profil */
+}
+
+.card img {
+    height: 200px; /* Sesuaikan tinggi gambar proyek */
+}
+
+footer {
+    position: relative;
+}
